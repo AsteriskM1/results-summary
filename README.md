@@ -59,8 +59,7 @@ I want to focus more on CSS and which properties to use cause half the time I am
 ## Author
 
 - GitHub - [Arthur](https://github.com/AsteriskM1)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@AsteriskM1](https://www.frontendmentor.io/profile/AsteriskM1)
 
 ## Acknowledgments
 
