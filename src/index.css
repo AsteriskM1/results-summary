@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+      --color-primary: 0 0% 100%;
+
+      --card-1: 0 100% 67%;
+      --card-2: 39 100% 56%;
+      --card-3: 166 100% 37%;
+      --card-4: 234 85% 45%;
+    }
+  }
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+.card1-bg {
+    background: linear-gradient(180deg, #7857FF 0%, #2E2BE9 100%);
+}
+
+.circle {
+    background: linear-gradient(180deg, #4A24CF 0%, #4633ED 100%);
+}
+
+.box-1 {
+    background: rgba(255, 87, 87, 0.3);
+    border-radius: 10px;
+}
+
+.box-2 {
+    background: rgba(255, 176, 31, 0.3);
+    border-radius: 10px;
+}
+
+.box-3 {
+    background: rgba(0, 189, 145, 0.3);
+    border-radius: 10px;
+}
+
+.box-4 {
+    background: rgba(200, 199, 255, 0.3);
+    border-radius: 10px;
+}
+
+.btn-bg {
+    background: #303B59;
+    border-radius: 35px;
+}
+
+.btn-bg:hover {
+    background: #322EEB;
+    border-radius: 35px;
+}
+
+.bg-shadow {
+    background: #FFFFFF;
+    box-shadow: 8px 8px 20px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+}
